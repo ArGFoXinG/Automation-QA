@@ -33,4 +33,4 @@ pytest
 
 -Agregar producto al carrito: Interacción con los elementos de la tienda para sumar productos.
 
--Verificar producto en el carrito: Comprobación de que el artículo seleccionado se encuentre correctamente listado.
+-Verificar producto en el carrito: Comprobación de que el artículo seleccionado se encuentre correctamente listado..
