@@ -18,7 +18,7 @@ def test_login():
         usuario = driver.find_element(By.ID,"user-name") 
         password = driver.find_element(By.ID,"password")
         
-        boton_login = wait.until(EC.element_to_be_cliclable((By.ID,"login-button"))) 
+        boton_login = wait.until(EC.element_to_be_clickable((By.ID,"login-button"))) 
         
         #driver.find_element(By.ID,"login-button")
 
