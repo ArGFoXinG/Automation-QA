@@ -5,6 +5,8 @@ from selenium.webdriver.common.by import By
 def test_login():
     driver = webdriver.Chrome()
 
+    driver.implicitly_wait(10)
+    
     try:
         driver.get("https://www.saucedemo.com/")
 
